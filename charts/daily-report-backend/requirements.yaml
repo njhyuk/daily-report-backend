@@ -2,7 +2,7 @@ dependencies:
   - name: mongodb
     repository: https://charts.bitnami.com
     version: 7.2.7
-    condition: mongodb.enabled
+    condition: subchart.mongodb
     tags:
       - backend
       - database
