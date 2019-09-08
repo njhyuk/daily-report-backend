@@ -40,6 +40,7 @@ readinessProbe:
   timeoutSeconds: 1
 subchart:
   mongodb: true
-mongodbUsername: user
-mongodbPassword: test1234
-mongodbDatabase: dailyReport
+mongodb:
+  mongodbUsername: user
+  mongodbPassword: test1234
+  mongodbDatabase: dailyReport

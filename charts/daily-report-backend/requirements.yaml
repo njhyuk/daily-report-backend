@@ -4,12 +4,8 @@ dependencies:
     version: 7.2.7
     condition: subchart.mongodb
     import-values:
-      - child: mongodbUsername
-        parent: mongodbUsername
-      - child: mongodbPassword
-        parent: mongodbPassword
-      - child: mongodbDatabase
-        parent: mongodbDatabase
+      - child:
+      - parent: mongodb
     tags:
       - backend
       - database
