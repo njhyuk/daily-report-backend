@@ -4,7 +4,7 @@ dependencies:
     version: 7.2.7
     condition: subchart.mongodb
     import-values:
-      - child:
+      - child: ''
       - parent: mongodb
     tags:
       - backend
