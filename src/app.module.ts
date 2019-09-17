@@ -14,7 +14,7 @@ import { UsersModule } from './users/users.module';
       username: 'user',
       password: 'test1234',
       database: 'dailyReport',
-      // entities: [__dirname + '/**/*.entity{.ts,.js}'],
+      entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
     }),
     AuthModule,
