@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "host": "10.19.243.99",
+  "port": 27017,
+  "username": "user",
+  "password": "test1234",
+  "database": "dailyReport",
+  "entities": ["src/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
