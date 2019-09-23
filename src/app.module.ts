@@ -9,6 +9,7 @@ import {I18nModule} from "nestjs-i18n";
 import * as path from "path";
 import { ConfigModule } from './config/config.module';
 import {ConfigService} from "./config/config.service";
+import {AuthController} from "./auth/auth.controller";
 
 @Module({
   imports: [
@@ -22,7 +23,11 @@ import {ConfigService} from "./config/config.service";
     UserModule,
     ConfigModule
   ],
-  controllers: [AppController, UserController],
-  providers: [AppService],
+  controllers: [
+    AppController,
+  ],
+  providers: [
+    AppService
+  ],
 })
 export class AppModule {}
